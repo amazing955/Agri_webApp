@@ -1,6 +1,6 @@
 function Mission(){
   return(
-    <section>
+    <section className="p-1">
       <h2 className="text-center text-3xl font-bold my-3">
         Our Mission
       </h2>
