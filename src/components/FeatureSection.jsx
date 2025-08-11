@@ -1,3 +1,5 @@
+import FeaturesCard from "./FeaturesCard"
+
 function FeatureSection(){
   return(
     <section>
@@ -7,8 +9,12 @@ function FeatureSection(){
       <p className="text-center text-gray-700">
         Everything you need to succeed in agriculture
       </p>
+
+      <article className="grid grid-cols-1">
+        <FeaturesCard />
+      </article>
     </section>
   )
 }
 
-export default FeatureSection
+export default FeatureSection;
