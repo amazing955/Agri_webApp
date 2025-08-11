@@ -1,11 +1,19 @@
 function Nav(){
   return(
-    <nav className="flex align-center justify-around flex-wrap">
+    <nav className="flex flex-col shadow-md/40 p-2">
+      <article className="flex justify-between align-center mb-1">
       <p className="font-bold text-green-600 text-xl">
         AgriSacco
       </p>
 
-      <ul className="flex justify-around gap-1 align-center flex-wrap">
+      <article className="flex flex-col gap-1">
+        <div className="w-9 rounded-full h-1.5 border-none bg-green-900"></div>
+        <div className="w-9 rounded-full h-1.5 border-none bg-green-900"></div>
+        <div className="w-9 rounded-full h-1.5 border-none bg-green-900"></div>
+      </article>
+      </article>
+
+      <ul className="flex flex-col font-semibold mb-2">
         <li>Home</li>
         <li>About</li>
         <li>MarketPlace</li>
