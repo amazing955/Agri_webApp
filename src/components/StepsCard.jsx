@@ -1,7 +1,9 @@
 function StepsCard({ cardImage, cardStep, cardDescription}){
   return(
     <article className="flex flex-col *:text-center justify-center align-top p-5 bg-gray-100 rounded-xl shadow-md">
-      <i className={`${cardImage} text-green-700 text-[2rem] mb-2`}></i>
+      <div>
+        <i className={`${cardImage} text-green-700 text-[2rem] mb-2`}></i>
+      </div>
 
       <h3 className="font-semibold text-xl mb-2">
         {cardStep}
