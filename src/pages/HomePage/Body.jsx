@@ -1,5 +1,6 @@
 import Mission from "../../components/Mission";
 import FeatureSection from '../../components/FeatureSection';
+import HowItWorks from "../../components/HowItWorks";
 
 
 function Body(){
@@ -7,6 +8,7 @@ function Body(){
     <main>
       <Mission />
       <FeatureSection />
+      <HowItWorks />
     </main>
   )
 }
