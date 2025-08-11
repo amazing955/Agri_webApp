@@ -1,6 +1,6 @@
 function Nav(){
   return(
-    <nav className="flex flex-col shadow-md/40 p-2 fixed top-0 left-0 z-[1000] bg-white w-full">
+    <nav className="flex flex-col shadow-md/40 p-2 bg-white">
       <article className="flex justify-between align-center mb-1">
       <p className="font-bold text-green-600 text-xl">
         AgriSacco
