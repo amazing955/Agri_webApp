@@ -1,5 +1,11 @@
-function Header(){
+import Nav from "../../../components/Nav";
 
+function Header(){
+  return(
+    <>
+      <Nav />
+    </>
+  )
 }
 
 export default Header;
