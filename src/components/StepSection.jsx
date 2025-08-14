@@ -11,7 +11,7 @@ function HowItWorks(){
         Simple steps to get started
       </p>
 
-      <article className="grid grid-cols-2 gap-4 mt-4">
+      <article className="flex flex-col gap-4 mt-4">
         <StepsCard cardImage='fas fa-user-plus' cardStep='1. Sign Up' cardDescription='Create your account as a farmer or buyer to get started' />
 
         <StepsCard cardImage='fas fa-list' cardStep='2. Post or Browse' cardDescription='List your produce or browse available listings' />
