@@ -6,7 +6,7 @@ function FooterHeading(){
       </h4>
 
       <p>
-        Empowering farmers throught technology and community
+        Empowering farmers throught technology and community.
       </p>
     </article>
   )
