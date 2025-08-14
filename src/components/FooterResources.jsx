@@ -6,12 +6,14 @@ function FooterResources(){
       </h4>
 
       <nav>
+
         <ul>
           <li>Training</li>
           <li>Weather</li>
           <li>Market Prices</li>
           <li>FAQ</li>
         </ul>
+        
       </nav>
     </article>
   )
