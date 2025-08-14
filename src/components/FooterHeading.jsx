@@ -1,7 +1,7 @@
 function FooterHeading(){
   return(
     <article className="flex flex-col">
-      <h4 className="font-bold mb-2">
+      <h4 className="font-bold mb-2 text-xl">
         AgriSacco
       </h4>
 
