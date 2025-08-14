@@ -1,6 +1,7 @@
 import FooterHeading from "../../components/FooterHeading";
 import FooterLinks from "../../components/FooterLinks";
 import FooterResources from "../../components/FooterResources";
+import FooterSocials from "../../components/FooterSocials";
 
 function Footer(){
   return (
@@ -8,6 +9,7 @@ function Footer(){
       <FooterHeading />
       <FooterLinks />
       <FooterResources />
+      <FooterSocials />
     </footer>
   )
 }
