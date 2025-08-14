@@ -6,9 +6,11 @@ import StepSection from "../../components/StepSection";
 function Body(){
   return (
     <main>
+
       <Mission />
       <FeatureSection />
       <StepSection />
+      
     </main>
   )
 }

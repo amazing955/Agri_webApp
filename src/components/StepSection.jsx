@@ -12,12 +12,15 @@ function HowItWorks(){
       </p>
 
       <article className="flex flex-col gap-4 mt-4">
+
         <StepsCard cardImage='fas fa-user-plus' cardStep='1. Sign Up' cardDescription='Create your account as a farmer or buyer to get started' />
 
         <StepsCard cardImage='fas fa-list' cardStep='2. Post or Browse' cardDescription='List your produce or browse available listings' />
         
         <StepsCard cardImage='fas fa-handshake' cardStep='3. Connect & Trade' cardDescription='Communicate and complete transactions securely' />
+
       </article>
+      
     </section>
   )
 }
