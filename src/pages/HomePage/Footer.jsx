@@ -1,7 +1,9 @@
+import FooterHeading from "../../components/FooterHeading";
+
 function Footer(){
   return (
-    <footer>
-      
+    <footer className='w-full bg-[#19192c] text-white'>
+      <FooterHeading />
     </footer>
   )
 }
