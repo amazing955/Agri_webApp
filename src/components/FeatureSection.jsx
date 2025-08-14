@@ -12,7 +12,7 @@ function FeatureSection(){
         Everything you need to succeed in agriculture
       </p>
 
-      <article className="grid grid-cols-2 gap-4 mt-4">
+      <article className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-4">
 
         <FeaturesCard cardImage='fas fa-shopping-cart' cardTitle='MarketPlace' cardDescription='Buy and sell farm produce directly without middlemen' />
 
@@ -31,7 +31,7 @@ function FeatureSection(){
         <FeaturesCard cardImage='fas fa-user-friends' cardTitle='Labor Connection' cardDescription='Find and hire skilled farm workers in your area' />
 
       </article>
-      
+
     </section>
   )
 }

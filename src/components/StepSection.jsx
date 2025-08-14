@@ -11,7 +11,7 @@ function HowItWorks(){
         Simple steps to get started
       </p>
 
-      <article className="flex flex-col gap-4 mt-4">
+      <article className="flex flex-col gap-4 items-center mt-4">
 
         <StepsCard cardImage='fas fa-user-plus' cardStep='1. Sign Up' cardDescription='Create your account as a farmer or buyer to get started' />
 
@@ -20,7 +20,7 @@ function HowItWorks(){
         <StepsCard cardImage='fas fa-handshake' cardStep='3. Connect & Trade' cardDescription='Communicate and complete transactions securely' />
 
       </article>
-      
+
     </section>
   )
 }

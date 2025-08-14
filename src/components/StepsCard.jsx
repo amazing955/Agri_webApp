@@ -1,6 +1,6 @@
 function StepsCard({ cardImage, cardStep, cardDescription}){
   return(
-    <article className="flex flex-col *:text-center justify-center align-top p-5 bg-gray-100 rounded-xl shadow-md">
+    <article className="flex flex-col *:text-center justify-center align-top p-5 bg-gray-100 rounded-xl shadow-md w-[60vw]">
 
       <div>
         <i className={`${cardImage} text-green-700 text-[2rem] mb-2`}></i>
@@ -13,7 +13,7 @@ function StepsCard({ cardImage, cardStep, cardDescription}){
       <p className="text-gray-700">
         {cardDescription}
       </p>
-      
+
     </article>
   )
 }

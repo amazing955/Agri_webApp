@@ -8,15 +8,19 @@ function Footer(){
   return (
     <footer className='w-full bg-[#19192c] text-white p-4 flex flex-col gap-8'>
 
-      <FooterHeading />
-      <FooterLinks />
-      <FooterResources />
-      <FooterSocials />
+      <article className="gap-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+
+        <FooterHeading />
+        <FooterLinks />
+        <FooterResources />
+        <FooterSocials />
+
+      </article>
 
       <div className="w-full h-[1px] bg-gray-500"></div>
 
       <FooterLicense />
-      
+
     </footer>
   )
 }
